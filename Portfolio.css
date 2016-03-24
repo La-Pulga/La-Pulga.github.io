@@ -1,0 +1,162 @@
+/*CSS for Portfolio*/ 
+
+/*Main page elements*/
+
+body{
+	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	background: #6EA58D;	/*Green*/
+	background: rgba(228, 201, 138, 0.46); /*yellow*/
+	font-family: Trebuchet MS, Arial, sans-serif;
+
+}
+
+p{
+	text-indent: 3em;
+}
+
+.block_page{
+	width: 100%;
+	margin: auto;
+}
+
+/*Header elements*/
+
+header{
+	border-bottom: 1.5px solid #A2413A;
+}
+
+.head{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 2em;
+	font-weight: normal;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+.Subtitle{
+	font-family: Trebuchet MS, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-top: 0px;
+	padding-bottom: 3px;
+}
+
+nav{
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	word-spacing: 5px;
+	margin-bottom: 3px;
+}
+
+nav a{
+	font-size: 1.2em;
+	color: #181818;
+	padding-bottom: 3px;
+}
+
+/*Banner*/
+
+span{
+	background: #A2413A;
+	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+	display: inline-block;
+	height:170px;
+	width:95%;
+	margin-top: 3px;
+	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 4px 4px 4px black;
+}
+
+.banner{
+	margin-top: 3px;
+	text-align: center;
+	margin-bottom: 3px;
+
+}
+
+/*Body: Section and Aside*/
+
+section{
+	width: 95%;
+	margin: auto;
+
+}
+
+.About{
+	text-align: center;
+	margin-right: 33%;
+	margin-left: 33%;
+}
+
+article, aside{
+
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+
+}
+
+
+/*Article*/
+
+h2{
+	font-family: Arial;
+	display: inline-block;
+}
+
+article{
+	width: 65%;
+	margin-right: 10px;
+}
+article p{
+		font-size: 1em;
+}
+
+/*Aside*/
+aside{
+	margin-top: 20px;
+	margin-left: 10px;
+	background: gray;
+	width:25%;
+	box-shadow: 1px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 0.9em;
+}
+.About{
+	text-align: center;
+	position: relative;
+}
+
+/*Footer*/
+
+footer{
+	border-top: 1.5px solid #A2413A;
+}
+
+.Tweets, .Photos, .Articles{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	text-align: center;
+}
+.
